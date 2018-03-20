@@ -50,7 +50,7 @@ someAsyncCall = async () => {
       });
 
       if (data) {
-        // do something on successfull if you chose
+        // do something on success if you choose
       }
     }
   );
