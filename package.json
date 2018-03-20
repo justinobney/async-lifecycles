@@ -1,8 +1,7 @@
 {
   "name": "async-lifecycles",
-  "version": "1.0.2",
-  "description":
-    "Utility function to reduce branching of async function states",
+  "version": "1.0.3",
+  "description": "Utility function to reduce branching of async function states",
   "repository": {
     "url": "https://github.com/justinobney/async-lifecycles"
   },
