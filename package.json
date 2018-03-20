@@ -1,0 +1,15 @@
+{
+  "name": "async-lifecycles",
+  "version": "1.1.0",
+  "description": "Utility function to reduce branching of async function states",
+  "main": "dist/async-lifecycles.js",
+  "author": "Justin Obney",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "microbundle -o dist/"
+  },
+  "devDependencies": {
+    "microbundle": "^0.4.4"
+  }
+}
