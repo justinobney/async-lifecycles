@@ -35,7 +35,7 @@ someAsyncCall = async () => {
 // ...
 ```
 
-Instead of littering my code with all the `try/catch` pr `promise.then(/*...*/).catch(/*...*/)`, I found it more pleasant to have code like so:
+Instead of littering my code with all the `try/catch` or `promise.then(/*...*/).catch(/*...*/)`, I found it more pleasant to have code like so:
 
 ```js
 // ...
