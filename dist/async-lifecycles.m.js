@@ -1,0 +1,2 @@
+var r=function(r,t){return new Promise(function(n,e){t({loading:!0,data:null,error:{}});var i=function(){try{return n()}catch(r){return e(r)}}.bind(this),a=function(r){try{return t({loading:!1,data:null,error:r}),i()}catch(r){return e(r)}}.bind(this);try{return r().then(function(r){try{return t({loading:!1,data:r,error:{}}),i()}catch(r){return a(r)}}.bind(this),a)}catch(r){a(r)}}.bind(void 0))};export default r;export{r as withLifecycles};
+//# sourceMappingURL=async-lifecycles.m.js.map

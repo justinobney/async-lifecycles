@@ -1,0 +1,2 @@
+module.exports=function(r,n){return new Promise(function(t,i){n({loading:!0,data:null,error:{}});var e=function(){try{return t()}catch(r){return i(r)}}.bind(this),u=function(r){try{return n({loading:!1,data:null,error:r}),e()}catch(r){return i(r)}}.bind(this);try{return r().then(function(r){try{return n({loading:!1,data:r,error:{}}),e()}catch(r){return u(r)}}.bind(this),u)}catch(r){u(r)}}.bind(void 0))};
+//# sourceMappingURL=async-lifecycles.js.map
